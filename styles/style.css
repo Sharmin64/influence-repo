@@ -1,0 +1,70 @@
+/* font family link import */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Dancing+Script&family=Lato:ital@1&family=Ms+Madi&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins:ital,wght@1,500&display=swap');
+/* body style */
+.container{
+    background-color: #AAAAAA;
+}
+.head-box{
+    background-color: aliceblue;
+}
+/* .header{
+    background-color: aliceblue;
+} */
+.header-title{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.navber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navber-two p{
+    justify-content: space-around;
+    float: right;
+    /* text-align: center; */
+    padding: 14px 16px;
+    font-size: 17px;
+}
+/* header div style */
+.influen{
+    display: flex;
+    /* background-color: aliceblue; */
+}
+.booking{
+    margin:50px 29px ;
+    padding-top: 25px;
+    padding-bottom: 50px ;
+    
+}
+.booking button{
+    border-radius: 18px;
+    padding: 7px;
+    background-color:#E02C6D; 
+    color: azure;
+    border: hidden;
+}
+.booking .para-title+p{
+word-wrap: break-word;
+font-family: 'Poppins', sans-serif;
+
+}
+/* logo style */
+.logo{
+    margin: 10px 25px;
+    align-items: center;
+}
+.logos{
+    display: flex;
+  justify-content: space-evenly;
+  border: 5px solid aliceblue ;
+  padding: 8px;
+  margin-left: 5px; 
+  margin-right: 50px;
+
+}
+.logos img{
+    width: 50px;
+}
