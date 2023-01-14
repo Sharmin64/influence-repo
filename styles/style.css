@@ -102,11 +102,15 @@ font-family: 'Poppins', sans-serif;
    padding-top: 8px;
     float: right; */
 }
-    .box{
+    .box {
         border:2px solid aliceblue;
     padding-bottom: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
     }
-
+.card h3 + div{
+    padding-bottom: 10px;
+}
 .card>img{
     width: 200px;
 }
@@ -128,4 +132,13 @@ featured section style ---------*/
     color: azure;
     border: none;
     padding: 5px 10px;
+}
+.footer{
+    background-color: rgba(10, 10, 57, 0.916);
+    height: 240px;
+    text-align: center;
+    justify-content: center;
+   padding-top: 60px;
+   color: azure;
+   margin-top: 60px;
 }
