@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Dancing+Script&family=Lato:ital@1&family=Ms+Madi&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins:ital,wght@1,500&display=swap');
 /* body style */
 .container{
-    background-color: #AAAAAA;
+    background-color: aliceblue;
 }
 .head-box{
     background-color: aliceblue;
@@ -67,4 +67,65 @@ font-family: 'Poppins', sans-serif;
 }
 .logos img{
     width: 50px;
+}
+/* ---------------
+-----------card style------------ */
+.main-box{
+    background-color: aliceblue;
+}
+.collection{
+    margin-left: 80px;
+    margin-right:20px ;
+    margin-bottom: 0;
+   
+}
+.collection> .col-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.collection .box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 500px;
+    padding-left:10px;
+    flex-basis: auto;
+}
+.collection .more{
+    width: 90%;
+    text-align: right;
+    padding-top: 5px;
+    color: #E02C6D;
+   /* margin: 10px 25px 127px 135px;
+   padding-right: 10px 20px 100px 130px ; 
+   padding-top: 8px;
+    float: right; */
+}
+    .box{
+        border:2px solid aliceblue;
+    padding-bottom: 30px;
+    }
+
+.card>img{
+    width: 200px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+/* ---------
+featured section style ---------*/
+.featured{
+    display: flex;
+}
+.featured> .feat-column{
+    margin: 0 auto;
+    padding: 40px;
+    word-wrap: break-word;
+}
+.feat-column> .btn{
+    background-color: #E02C6D;
+    color: azure;
+    border: none;
+    padding: 5px 10px;
 }
